@@ -5,13 +5,13 @@ UART, an acronym for Universal Asynchronous Receiver/Transmitter, delineates a p
 
 In this project, a fundamental UART system is designed, simulated, and implemented on an Artix-7 FPGA. It operates in full duplex mode and supports a baud rate of 115200 bps. The data frame format includes 1 start bit, 8 data bits, and 1 stop bit, as shown in figure1.
 
-![](images/toda_estimation.jpg)
+![](images/data format.png)
 
 ## Methodology
 
 The block diagram illustrating the UART configuration is depicted in Figure 2. At its core, the UART comprises two primary components: the receiver and the transmitter. The receiver is responsible for converting incoming serial data into 8-bit parallel data, whereas the transmitter performs the reverse operation, converting parallel data into serial format for transmission.
 
-![](images/toda_estimation.jpg)
+![](images/block diagram.png)
 
 ### Counter
 
